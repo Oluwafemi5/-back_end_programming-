@@ -9,7 +9,7 @@ def play_game():
         userNumber = int(input('Guess the Number: '))
         
         if userNumber == Alpha:
-            print("Congratulations! You guessed the number correctly!")
+            print("Congratulations! You Won!")
             break
         elif attempts == 1:
             print(f"Sorry, you've run out of attempts. The correct number was {Alpha}.")
